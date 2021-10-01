@@ -7,6 +7,7 @@
 // .then((Response)=>Response.json())
 // .then((data)=>console.log(data));
 // },
+let tttk="hii";
 let weather = {
   apiKey: "03d32da4e4b248e559a276b75c50bc4f",
   fetchWeather: function (city) {
@@ -64,3 +65,4 @@ document
 
 weather.fetchWeather("Denver");
 // weather.displayWeather(data);
+console.log(tttk);
